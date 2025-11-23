@@ -55,4 +55,4 @@ If you are a developer or want to inspect the code:
 This project is available under the MIT License. Feel free to include it in modpacks.
 
 ---
-*Created by [Odysseus37](https://github.com/odysseus37)*
+*Created by [Odysseus37](https://github.com/ulisses37)*

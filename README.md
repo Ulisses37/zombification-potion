@@ -29,7 +29,7 @@ You can brew the Potion of Zombification using a **Brewing Stand**:
     * It utilizes the native `villager.convertTo(EntityType.ZOMBIE_VILLAGER)` method to ensure NBT data (trades, gossip, reputation) is preserved during transformation.
 
 ## 📦 Installation
-1.  Download the latest `.jar` from the [Releases](https://github.com/odysseus37/zombification-potion/releases) tab (or CurseForge/Modrinth).
+1.  Download the latest `.jar` from the [Releases](https://github.com/ulisses37/zombification-potion/releases) tab (or CurseForge/Modrinth).
 2.  Install [Fabric Loader](https://fabricmc.net/).
 3.  Place the `.jar` file into your Minecraft `mods` folder.
 4.  Ensure you have the [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api) installed.
@@ -39,7 +39,7 @@ If you are a developer or want to inspect the code:
 
 1.  Clone the repository:
     ```bash
-    git clone [https://github.com/odysseus37/zombification-potion.git](https://github.com/odysseus37/zombification-potion.git)
+    git clone [https://github.com/odysseus37/zombification-potion.git](https://github.com/ulisses37/zombification-potion.git)
     ```
 2.  Navigate to the directory and build using Gradle:
     ```bash

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "zombifypotion",
+  "version": "${version}",
+  "name": "Zombification Potion",
+  "description": "Adds a craftable potion to instantly zombify villagers. Perfect for trading halls without zombies.",
+  "authors": [
+    "Odysseus37"
+  ],
+  "contact": {
+    "sources": "https://github.com/odysseus37/zombification-potion",
+    "homepage": "https://github.com/odysseus37/zombification-potion"
+  },
+  "license": "MIT",
+  "icon": "assets/zombifypotion/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "net.odysseus37.zombifypotion.client.ZombifyPotionDataGenerator"
+    ],
+    "client": [
+      "net.odysseus37.zombifypotion.client.ZombifyPotionClient"
+    ],
+    "main": [
+      "net.odysseus37.zombifypotion.ZombifyPotion"
+    ]
+  },
+  "mixins": [
+    "zombifypotion.mixins.json",
+    {
+      "config": "zombifypotion.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

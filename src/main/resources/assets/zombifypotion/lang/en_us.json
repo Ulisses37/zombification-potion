@@ -1,0 +1,7 @@
+{
+  "effect.zombifypotion.zombify_effect": "Zombifying",
+  "item.minecraft.potion.effect.zombify_potion": "Potion of Zombification",
+  "item.minecraft.splash_potion.effect.zombify_potion": "Splash Potion of Zombification",
+  "item.minecraft.lingering_potion.effect.zombify_potion": "Lingering Potion of Zombification",
+  "item.minecraft.tipped_arrow.effect.zombify_potion": "Arrow of Zombification"
+}
